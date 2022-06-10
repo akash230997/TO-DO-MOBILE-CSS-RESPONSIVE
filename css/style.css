@@ -382,6 +382,18 @@ a{
     .font{
         line-height: 40px;
     }
+    .box2{
+        width: 60%;
+        margin-left: 100px;
+    }
+    .mainbox2{
+        width: 60%;
+        margin-top: 100px;
+    }
+    .boxAddItem {
+        width: 60%;
+        margin-left: -70px;
+    }
 }
 @media screen and (max-width:950px){
     .mainbox{
@@ -397,11 +409,48 @@ a{
     .AddList{
         padding-top: 70px;
     }
-}
-@media screen and (max-width:750px){
-    .hide{
-        display: none;
+    .box2 {
+        width: 60%;
     }
+    .boxAddItem {
+        width: 60%;
+        margin-left: -70px;
+    }
+}
+@media screen and (max-width:450px){
+    .head{
+        width: 100%;
+    }
+    #top {
+        margin-bottom:0px;
+    }
+    .AddList {
+        padding-top: 30px;
+    }
+    
+    .box2 {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .boxAddItem {
+        width: 60%;
+        margin-left: -70px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .mainbox2{
+        
+        width: 100%;
+    }
+    .box2{
+            width: 60%;
+            margin-left: 60px;
+    }
+    .head11{
+        font-size: 2.5rem;
+    }
+    
 }
 
 
